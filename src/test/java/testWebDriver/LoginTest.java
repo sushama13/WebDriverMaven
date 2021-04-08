@@ -28,5 +28,8 @@ public class LoginTest {
 		
 		driver.findElement(By.id("identifierId")).sendKeys("trainer@way2automation.com");;
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button")).click();
+		
+		//update file
+		System.out.println(driver.getTitle());
 	}
 }
